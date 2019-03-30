@@ -1,0 +1,28 @@
+.main__box {
+background-image: url(../images/david-van-dijk-255503-unsplash.jpg);
+background-size: 125%;
+background-repeat: no-repeat;
+height: 100vmin;
+    @media all and (min-width: width 1024px){
+        background-position: center;
+        background-size: cover; 
+    }
+}
+.title__box {
+    height: 100vmin;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    width: 322px;
+    height: 213px;
+    font-family: $font-primary;
+    text-transform: capitalize;
+    font-size: 60px;
+    color: white;
+}
+
+.btn__box {
+
+}
