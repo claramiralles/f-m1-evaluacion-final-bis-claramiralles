@@ -1,4 +1,4 @@
-.image__box {
+/*.image__box {
     @media all and (min-width: 768px){
         width: 768px auto;
         height: 834px auto;
@@ -6,27 +6,29 @@
     @media all and (min-width: 1024px){
         width: 1024px auto;
     }
-}
+}*/
 .main__box {
     background-image: url(../images/david-van-dijk-255503-unsplash.jpg);
     background-repeat: no-repeat;
-    background-position: 50%, center;
+    background-position: 75%;
     padding: 0;
     height: auto;
     width: 100%;
     background-size: cover;
     position: relative;
     @media all and (min-width: 768px){
-        background-position: 100%, center;
+        background-position: 50%, bottom;
     }
     @media all and (min-width: 1024px){
-        background-position: 100%, center;
+        background-position: 100%;
     }
 }
     .title__box {
         height: 100vh;
         display: flex;
         align-items: center;
+        margin: 129px, 139px, 129px, 20px;
+        padding-left: 20px;
     }
         .title {
             font-family: $font-primary;
@@ -34,10 +36,9 @@
             color: white;
             width: 161px;
             height: 108px;
-            margin-left: 20px;
             font-size: 30px;
-            margin-block-start: 5.67em;
-            margin-block-end: 0.67em;
+            margin-block-start: 0;
+            margin-block-end: 0;
             @media all and (min-width: 768px){
                 width: 322px;
                 height: 213px;
