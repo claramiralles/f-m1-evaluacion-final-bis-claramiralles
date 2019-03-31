@@ -1,30 +1,45 @@
 .main__box {
-background-image: url(../images/david-van-dijk-255503-unsplash.jpg);
-background-repeat: no-repeat;
-min-width: 300px;
-background-size: 125%; 
-padding-top: 132px;
-height: 100vmin;
+    background-image: url(../images/david-van-dijk-255503-unsplash.jpg);
+    background-repeat: no-repeat;
+    min-width: 300px;
+    background-size: 125%; 
+    padding-top: 132px;
+    height: 100vmin;
     @media all and (min-width: width 1024px){
         background-position: center;
         background-size: 100% cover; 
     }
 }
-.title__box {
-    padding-top: 122px;
-    display: flex;
-    align-items: center;
-}
+    .title__box {
+        padding-top: 122px;
+        display: flex;
+        align-items: center;
+    }
 
-.title {
-    width: 322px;
-    height: 213px;
-    font-family: $font-primary;
-    text-transform: capitalize;
-    font-size: 60px;
-    color: white;
-}
+        .title {
+            width: 322px;
+            height: 213px;
+            font-family: $font-primary;
+            text-transform: capitalize;
+            font-size: 60px;
+            color: white;
+        }
 
-.btn__box {
+    .btn__box {
+        display: flex;
+        justify-content: flex-end;
 
-}
+    }
+        .btn {
+            width: 69px;
+            height: 34px;
+            border-radius: 16.5px;
+            border: 1px solid white;
+            text-transform: uppercase;
+            font-family: $font-primary;
+            text-transform: uppercase;
+            font-size: 14px;
+            color: white;
+            font-weight: 500;
+            background-color: $color-blue700;
+        }
