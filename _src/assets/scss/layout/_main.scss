@@ -1,15 +1,17 @@
 .main__box {
 background-image: url(../images/david-van-dijk-255503-unsplash.jpg);
-background-size: 125%;
 background-repeat: no-repeat;
+min-width: 300px;
+background-size: 125%; 
+padding-top: 132px;
 height: 100vmin;
     @media all and (min-width: width 1024px){
         background-position: center;
-        background-size: cover; 
+        background-size: 100% cover; 
     }
 }
 .title__box {
-    height: 100vmin;
+    padding-top: 122px;
     display: flex;
     align-items: center;
 }
