@@ -59,10 +59,10 @@
             font-weight: 400;
             text-decoration: none;
             text-transform: uppercase;
-            transition: color, underline;
+            transition: color ease 0.5s, underline;
         }
         .nav__item:hover {
-            color: #32decf;
+            color: $color-greenBlue;
             text-decoration: underline;
         }
             .nav__item:last-child {

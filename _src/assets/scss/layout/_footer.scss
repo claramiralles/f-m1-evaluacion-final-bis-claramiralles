@@ -12,3 +12,25 @@
     color: $color-grey400;
     font-family: $font-primary;
 }
+
+.warning__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $color-whiteSnow;
+    color: $color-greenBlue;
+    @media all and (min-width: 768px){
+        background-color:  $color-greenBlue;
+        color: $color-whiteSnow;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 21px 18px;
+    }
+}
+.warning__link {
+    color: $color-greenBlue;
+    @media all and (min-width: 768px){
+        color: $color-whiteSnow;
+    }
+}
